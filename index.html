@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Sistema de Empleados</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/Estilos.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <h3 align center>
+       <center>Sistema de empleados</center> 
+      </h3>
+
+    <!---------------------------Datos Personales----------------------->
+
+    <div class="container" id="Contenedor1">
+       <tr>
+        <h4>Datos Personales</h4>
+
+              <center><img src="img/avater.png" alt=""></center>
+              
+            <br>
+            <td id="IP" >
+                <label for="nombre" >Nombre </label>
+                <input type="text" id="Nombre1" name="" 
+                placeholder="Escriba su nombre">   
+                  <br><br>
+                <label for="nombre" >Apellido </label>
+                <input type="text" id="Nombre1" name="" 
+                placeholder="Escriba su apellido"> 
+                <img src="#" alt="">
+            </td>  
+            <br>
+            <label >Sexo :  </label>                                   
+            <label for="F" >Femenino </label>
+            <input type="radio" id="F" name="Genero">  
+            <label for="M" >Masculino </label>
+            <input type="radio" id="M" name="Genero"><br>
+
+            <br>
+            <label for="fecha_nac" >Fecha de Nacimiento</label>
+            <input type="date" id="fecha_nac">
+
+            <br>
+            <label for="fecha_nac" >Fecha de Ingreso</label>
+            <input type="date" id="fecha_nac"><br>
+        </tr>
+    </div><br>
+    <!---------------------------Datos Personales----------------------->
+
+    <!---------------------------Salario----------------------->
+    <div class="container">
+      <h4>Salario</h4>
+      <center>
+        <tr>
+          <label for="Salario" >Salario </label>
+          <input type="text" id="salario" name="" 
+          placeholder="$1.500.000">
+          <button type="submit" class="btn btn-outline-primary">Modificar</button>
+        </tr>
+      </center><br>  
+    </div><br>
+   <!---------------------------Salario----------------------->
+
+   <!---------------------------Calculos----------------------->
+   <div class="container">
+    <tr>
+      <h4>Calculos</h4>
+      <center>
+        <button type="submit" class="btn btn-outline-primary">Calcular edad</button>
+        <input type="text" id="calcularEdad" name=""><br>
+        <button type="submit" class="btn btn-outline-primary">Calcular antiguedad</button>
+        <input type="text" id="calcularAntiguedad" name=""><br>
+        <button type="submit" class="btn btn-outline-primary">Calcular prestaciones</button>
+        <input type="text" id="calcularPrestaciones" name=""><br>
+      </center><br>
+    </tr>
+ </div><br>
+ <!---------------------------Calculos----------------------->
+
+ <!---------------------------Puntos de Extencion----------------------->
+ <div class="container">
+  <tr>
+    <h4>Puntos de Extención</h4>
+    <center><button type="submit" class="btn btn-outline-primary">Opcion 1</button>
+      <button type="submit" class="btn btn-outline-primary">Opcion 2</button>
+    </center>
+  </tr><br>
+</div><br>
+<!---------------------------Puntos de Extencion----------------------->
+
+    
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

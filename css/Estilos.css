@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(31, 48, 206, 0.527);
+}
+.container{
+    background-color: rgb(210, 210, 210);
+    border-radius: 13px;
+    width: 700px;
+}
+#centrar{
+    width: 800px;
+}
+
